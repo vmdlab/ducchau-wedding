@@ -5,7 +5,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #fff;
-    background: url(/img/intro-bg1.jpg) no-repeat center center scroll;
+    background: url(img/intro-bg1.jpg) no-repeat center center scroll;
     background-color: {{ site.color.marb }};
 }
 
