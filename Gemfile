@@ -1,4 +1,5 @@
-# frozen_string_literal: true
-
+# A sample Gemfile
 source "https://rubygems.org"
-gemspec
+
+# TODO: Switch to github reference once theme is published.
+gem "jekyll-theme-easy-wedding"
