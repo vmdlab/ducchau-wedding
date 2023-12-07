@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/ducchau-wedding/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.marb }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -248,24 +248,6 @@ a:focus {
     }
 }
 
-carousel-section {
-  font-family: 'Lato', sans-serif;
-}
-
-.carousel {
-    border-radius: 3px 3px 3px 3px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-.carousel img {
-    object-fit: scale-down;
-    height:300px ;
-    min-height:300px;
-    width:auto !important;
-}
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
@@ -319,6 +301,31 @@ carousel-section {
   font-size: 30px;
   font-family: 'Lato', sans-serif;
 }
+    .carousel, .carousel-inner, .carousel-inner .item {
+
+      height: 100%;
+      
+    } 
+    .item:nth-child(1) {
+      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(2) {
+      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/D2ROMCUEIV.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
+
+    .item:nth-child(3) {
+      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+    }
 
 .content-section {
     padding-top: 100px;
