@@ -167,7 +167,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     .intro .intro-body .intro-text {
@@ -176,13 +176,13 @@ a:focus {
 }
 
 .btn-circle {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-top: 15px;
     padding: 7px 16px;
     border: 2px solid #000000;
-    border-radius: 35px;
-    font-size: 40px;
+    border-radius: 25px;
+    font-size: 25px;
     color: #000000;
     background: 0 0;
     -webkit-transition: background .3s ease-in-out;
