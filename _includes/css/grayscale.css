@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(/img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.marb }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -247,74 +247,6 @@ a:focus {
         transform: scale(1);
     }
 }
-
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  transition-property: opacity;
-}
-
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
-}
-
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
-}
-
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
-}
-
-.carousel-fade .carousel-control {
-  z-index: 2;
-} 
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-} 
-.carousel-caption {
-    text-shadow: 0 1px 4px rgba(0,0,0,.9);
-  font-size:17px
-}
-.carousel-caption h3 {
-  font-size: 30px;
-  font-family: 'Lato', sans-serif;
-}
-    .carousel, .carousel-inner, .carousel-inner .item {
-      max-width: 100%; height: auto;
-    } 
-    .item:nth-child(1) {
-      background: url(/img/caro1.png) no-repeat center center scroll;
-    }
-
-    .item:nth-child(2) {
-      background: url(/img/caro2.png) no-repeat center center scroll;
-    }
-
-    .item:nth-child(3) {
-      background: url(/img/caro3.png) no-repeat center center scroll;
-    }
 
 .content-section {
     padding-top: 100px;
