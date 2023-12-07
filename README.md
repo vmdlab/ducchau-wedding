@@ -1,16 +1,13 @@
-Uses [Jekyll](https://jekyllrb.com/) hosted on [GitHub Pages](https://pages.github.com/)
+Grayscale Jekyll theme
+=========================
 
-# Getting Started
+Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
-Ruby and rubygems already installed:
+## Demo
+View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
 
-    gem install bundler
-    bundle
+## Screenshot
+![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
 
-# Development 
-
-To start a local server: `jekyll serve`
-
-# Deploying
-
-    ./script/deploy.sh
+=========
+For more details, read the [documentation](http://jekyllrb.com/)

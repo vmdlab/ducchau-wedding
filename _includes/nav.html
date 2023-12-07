@@ -1,12 +1,12 @@
  <!-- Navigation -->
-    <nav class="navbar navbar-custom navbar-fixed-top {% if page.invisible_nav %} navbar-hidden-top {% else %} top-nav-collapse {% endif %}" role="navigation">
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="/">
-                  C & N
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <i class="fa fa-play-circle"></i>  <span class="light">Start</span> Bootstrap
                 </a>
             </div>
 
@@ -17,39 +17,15 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="{% if page.url == '/' %}active{% endif %}">
-                        <a href="/"> Our Story</a>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
                     </li>
-                    <li class="{% if page.url == '/celebrations/' %}active{% endif %}">
-                        <a href="/celebrations">Celebrations</a>
+                    <li>
+                        <a class="page-scroll" href="#download">Download</a>
                     </li>
-                    <li class="{% if page.url == '/people/' %}active{% endif %}">
-                        <a href="/people">People</a>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
                     </li>
-                    <li class="{% if page.url == '/details/' %}active{% endif %}">
-                        <a href="/details">Details</a>
-                    </li>
-                    {% if site.faq[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/faq">FAQ</a>
-                      </li>
-                    {% endif %}
-                    {% if site.guide[site.context] %}
-                      <li class="{% if page.url == '/faq/' %}active{% endif %}">
-                        <a href="/guide">City Guide</a>
-                      </li>
-                    {% endif %}
-                    <li class="{% if page.url == '/etc/' %}active{% endif %}">
-                      <a href="/etc">Etc</a>
-                    </li>
-                    {% if site.context == "chi" %}
-                        <li class="notification-link">
-                          <a href="#" class="ga-email-nav" data-toggle="modal" data-target="#subscribe-modal">
-                            <i class="fa fa-exclamation-circle notification-link--icon"></i>
-                            Updates
-                          </a>
-                        </li>
-                    {% endif %}
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
