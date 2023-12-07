@@ -1,10 +1,8 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
 body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
+    color: #000000;
     background: url(img/intro-bg1.jpg) center center scroll;
     background-color: {{ site.color.primary-dark }};
 }
@@ -20,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 45px;
+    margin: 0 0 35px;
     font-family: Parisienne,"Helvetica Neue",Helvetica,Arial,sans-serif,Scriptina;
     font-weight: 700;
     letter-spacing: 1px;
@@ -164,7 +162,7 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 120px;
+        font-size: 100px;
     }
 
     .intro .intro-body .intro-text {
