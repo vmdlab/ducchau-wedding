@@ -1,7 +1,7 @@
 Grayscale Jekyll theme
 =========================
 
-Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
+Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/) 
 
 ## Demo
 View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
