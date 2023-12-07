@@ -152,12 +152,12 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     padding-top: 150px;
-    font-size: 10px;
+    font-size: 100px;
 }
 
 .intro .intro-body .intro-text {
     padding-top: 100px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 @media(min-width:767px) {
