@@ -149,10 +149,11 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     padding-top: 150px;
-    font-size: 50px;
+    font-size: 10px;
 }
 
 .intro .intro-body .intro-text {
+    padding-top: 100px;
     font-size: 18px;
 }
 
@@ -163,11 +164,11 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 120px;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 20px;
     }
 }
 
