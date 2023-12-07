@@ -305,24 +305,15 @@ a:focus {
       max-width: 100%; height: auto;
     } 
     .item:nth-child(1) {
-      background: url(/ducchau-wedding/img/caro1.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background: url(/img/caro1.png) no-repeat center center scroll;
     }
 
     .item:nth-child(2) {
-      background: url(/img/caro2.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background: url(/img/caro2.png) no-repeat center center scroll;
     }
 
     .item:nth-child(3) {
-      background: url(/img/caro3.png);
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+      background: url(/img/caro3.png) no-repeat center center scroll;
     }
 
 .content-section {
