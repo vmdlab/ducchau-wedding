@@ -231,20 +231,21 @@ a:focus {
     }
 }
 
-.carousel-section{
+.carousel-section {
     padding-top: 0;
+    width: 100%;
     text-align: center;
     vertical-align: middle;
 }
 
 .carousel-section .pic-ctn {
-  width: auto;
-  height: 640px;
+  width: 720px;
+  height: 480px;
 }
 
 @keyframes display {
   0% {
-    transform: translateX(160px);
+    transform: translateX(480px);
     opacity: 0;
   }
   10% {
@@ -268,14 +269,14 @@ a:focus {
 .carousel-section .pic-ctn {
   position: relative;
   width: 100vw;
-  height: 640px;
+  height: 480px;
   margin-top: 15vh;
 }
 
 .carousel-section .pic-ctn img {
   position: absolute;
   top: 0;
-  left: calc(50% - 640px);
+  left: calc(50% - 480px);
   opacity: 0;
   animation: display 21s infinite;
 }
