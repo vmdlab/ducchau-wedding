@@ -147,28 +147,18 @@ a:focus {
     vertical-align: middle;
 }
 
-.intro .intro-body .brand-heading {
-    padding-top: 150px;
-    font-size: 100px;
+.intro .intro-body .banner{
+    padding-top: 75px;
 }
 
-.intro .intro-body .intro-text {
+.intro .intro-body .subbanner{
     padding-top: 100px;
-    font-size: 20px;
 }
+
 
 @media(min-width:767px) {
     .intro {
         height: 100%;
-        padding: 0;
-    }
-
-    .intro .intro-body .brand-heading {
-         font-size: 50px;
-    }
-
-    .intro .intro-body .intro-text {
-        font-size: 20px;
     }
 }
 
@@ -249,6 +239,12 @@ a:focus {
 .content-section {
     padding-top: 50px;
     text-align: center;
+    vertical-align: middle;
+}
+
+.content-section p {
+    line-height: 1.5;
+    display: inline-block;
     vertical-align: middle;
 }
 
