@@ -35,7 +35,7 @@ p {
     line-height: 1.5;
 }
 
-@media(min-width:767px) {
+@media {
     p {
         margin: 0 0 35px;
         font-size: 20px;
@@ -248,6 +248,12 @@ a:focus {
   height: 480px;
 }
 
+.carousel-section .frame {
+  width: 1000px;
+  height: auto;
+  
+}
+
 @keyframes display {
   0% {
     transform: translateX(480px);
@@ -272,7 +278,7 @@ a:focus {
 }
 
 .carousel-section .pic-ctn {
-  position: relative;
+  position: sticky;
   width: 100vw;
   height: 480px;
   margin-top: 15vh;
@@ -310,12 +316,7 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     text-align: center;
-    background: url(/img/downloads-bg.jpg) no-repeat center center scroll;
     background-color: #000000;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
 }
 
 
