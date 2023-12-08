@@ -1,87 +1,95 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+<!-- Carousel Section -->
+<section id="carousel" class="container carousel-section text-center">
+<div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="img/caro1.jpg" height="640" width="960" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/caro2.jpg" height="640" width="960" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/caro3.jpg" height="640" width="960" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/caro1.jpg" height="640" width="960" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/caro2.jpg" height="640" width="960" alt="" />
+		</div>
+		<div class="slide">
+			<img src="img/caro3.jpg" height="640" width="960" alt="" />
+		</div>
 
-body{
-  font-family: 'Lato', sans-serif;
-}
-.carousel-fade .carousel-inner .item {
-  opacity: 0;
-  transition-property: opacity;
+	</div>
+</div>
+</section>
+
+
+
+
+
+.carousel-section {
+	align-items: center;
+	background: #E3E3E3;
+	display: flex;
+	height: 640vh;
+	justify-content: center;
 }
 
-.carousel-fade .carousel-inner .active {
-  opacity: 1;
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
 }
 
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
-  left: 0;
-  opacity: 0;
-  z-index: 1;
+$animationSpeed: 40s;
+
+// Animation
+@keyframes scrollbg {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-960px * 3))}
 }
 
-.carousel-fade .carousel-inner .next.left,
-.carousel-fade .carousel-inner .prev.right {
-  opacity: 1;
+
+// Styling
+.carousel .slider {
+	background: white;
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height: 640px;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 2000px;
+	
+	&::before,
+	&::after {
+		@include white-gradient;
+		content: "";
+		height: 640px;
+		position: absolute;
+		width: auto;
+		z-index: 2;
+	}
+	
+	&::after {
+		right: 0;
+		top: 0;
+		transform: rotateZ(180deg);
+	}
+
+	&::before {
+		left: 0;
+		top: 0;
+	}
+	
+	.slide-track {
+		animation: scrollbg $animationSpeed linear infinite;
+		display: flex;
+		width: calc(960px * 6);
+	}
+	
+	.slide-track .slide {
+		height: 640px;
+		width: 960px;
+	}
 }
 
-.carousel-fade .carousel-control {
-  z-index: 2;
-} 
-@media all and (transform-3d), (-webkit-transform-3d) {
-    .carousel-fade .carousel-inner > .item.next,
-    .carousel-fade .carousel-inner > .item.active.right {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.prev,
-    .carousel-fade .carousel-inner > .item.active.left {
-      opacity: 0;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-    .carousel-fade .carousel-inner > .item.next.left,
-    .carousel-fade .carousel-inner > .item.prev.right,
-    .carousel-fade .carousel-inner > .item.active {
-      opacity: 1;
-      -webkit-transform: translate3d(0, 0, 0);
-              transform: translate3d(0, 0, 0);
-    }
-} 
-.carousel-caption {
-    text-shadow: 0 1px 4px rgba(0,0,0,.9);
-  font-size:17px
-}
-.carousel-caption h3 {
-  font-size: 30px;
-  font-family: 'Lato', sans-serif;
-}
-    .carousel,
-    .carousel-inner,
-    .carousel-inner .item {
-      height: 100%;
-    } 
-    .item:nth-child(1) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-    }
-
-    .item:nth-child(2) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/D2ROMCUEIV.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-    }
-
-    .item:nth-child(3) {
-      background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-    }
