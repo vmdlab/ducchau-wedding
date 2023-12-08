@@ -3,7 +3,7 @@ body {
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000000;
-    background: url(img/heart.jpg) center center scroll;
+    background: url(img/cloud.jpg) center center scroll;
     background-color: {{ site.color.primary-dark }};
 }
 
@@ -132,8 +132,9 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #000000;
+    background: url(img/cloud.jpg) center center scroll;
     background-color: {{ site.color.primary-dark }};
-    background: url(img/heart.jpg) center center scroll;
+
 }
 
 .intro .intro-body {
