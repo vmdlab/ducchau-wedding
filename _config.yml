@@ -1,6 +1,6 @@
 # Site settings
-title: Wedding Celebration
-email: your-email@domain.com
+title: Quaiquatroioi
+email: dhavirus@gmail.com
 url: https://example.github.io
 description: "Please join us to celebrate"
 
@@ -8,10 +8,11 @@ description: "Please join us to celebrate"
 color:
   primary-dark: '#000000'
   marb: '#f0ffff'
+  all-w: '#ffffff'
   links: '#219ab3'
 
 # Footer settings
-footer: Minh Chau - Minh Duc
+footer: Ngoc Chau - Minh Duc
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
